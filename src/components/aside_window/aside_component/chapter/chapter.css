@@ -1,0 +1,48 @@
+.image-container {
+    /* position: relative; */
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Style cho hình ảnh */
+.image-container img {
+    margin-right: 10px;
+    transition: opacity 0.5s ease-in-out;
+    width: 65%;
+    filter: drop-shadow(-1.2em 1.5em 10px rgba(53, 53, 53, 0.6));
+    animation: move 4s alternate infinite;
+    animation: up 3s ease infinite;
+}
+
+@keyframes up {
+    0%,100% {
+
+    }
+    50% {
+        transform: translateY(6px);
+    }
+}
+
+/* Hiện thị hình ảnh đầu tiên */
+.image-container img:first-child {
+    opacity: 1;
+}
+
+/* Ẩn hình ảnh */
+.image-container img.hidden {
+    opacity: 0;
+    width: 0;
+}
+
+#chapter button {
+    color: white;
+    background-color: rgba(53, 53, 53, 0.6);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#chapter button:hover {
+    background-color: rgba(53, 53, 53, 1);
+    transition: 0.3s;
+}

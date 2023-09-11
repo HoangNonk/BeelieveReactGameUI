@@ -1,0 +1,122 @@
+.question {
+    transform: translate(-100%);
+    width: 0;
+    height: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .show_question {
+    backdrop-filter: blur(0);
+    transform: translate(0);
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 0.7s ease-in;
+  }
+  
+  .content_question {
+    width: 50%;
+    height: 50%;
+    border: 8px groove white;
+    padding: 1.5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2%;
+    text-align: justify;
+  
+    display: none;
+  }
+  
+  .result_question {
+    width: 50%;
+    height: 50%;
+    border: 8px groove white;
+    padding: 1.5%;
+    color: white;
+    display: none;
+  }
+  
+  .content_question.active,
+  #result.active {
+    display: block;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .choice {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    gap: 2%;
+  }
+  
+  .choice button {
+    border: none;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    background-color: rgba(255, 156, 0, 0.8);
+    border: 8px groove rgba(255, 156, 0, 0.8);
+  }
+  
+  .choice button:hover {
+    width: 250px;
+    height: 150px;
+    transition: 0.3s ease-in-out;
+    background-color: rgba(53, 53, 53, 1);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 156, 0, 0.8);
+    animation: choose 2s infinite ease-in-out;
+  }
+  
+  @keyframes choose {
+  
+    0%,
+    100% {}
+  
+    50% {
+      transform: translateY(4px);
+    }
+  }
+  
+  .choice button:active {
+    transform: translateY(4px);
+  }
+  
+  .content_answer {
+    opacity: 0;
+    display: none;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .choice button:hover .content_answer {
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .choice button:hover i {
+    display: none;
+  }
+  
+  .esc_question,
+  .esc_aside {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+  }
+  

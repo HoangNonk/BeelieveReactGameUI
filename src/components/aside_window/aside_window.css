@@ -1,0 +1,40 @@
+.aside_function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    position: fixed;
+    
+    border-radius: 40px 0 0 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: 0.7s;
+    border: none;
+    outline: none;
+
+    opacity: 0;
+    transform: translateX(100%);
+
+    z-index: 1;
+    padding: 6% 3%;
+    padding-bottom: 3%;
+  }
+
+  .esc_aside {
+    cursor: pointer;
+  }
+  
+  .show_aside {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateX(0);
+  }
+  
+  #aside_setting {
+    flex-direction: column;
+    row-gap: 10px;
+  }

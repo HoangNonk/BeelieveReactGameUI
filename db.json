@@ -1,0 +1,381 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "HN",
+      "spot": 1,
+      "ques": "Hà Nội là thủ đô của nước nào?",
+      "a": "Việt Nam",
+      "b": "Thái Lan",
+      "c": "Campuchia",
+      "d": "Lào",
+      "correct": "Việt Nam"
+    },
+    {
+      "id": 2,
+      "chapter": "HN",
+      "spot": 1,
+      "ques": "Di tích nào sau đây là một biểu tượng lịch sử của Hà Nội?",
+      "a": "Vịnh Hạ Long",
+      "b": "Chùa Một Cột",
+      "c": "Chùa Trấn Quốc",
+      "d": "Lăng Chủ tịch Hồ Chí Minh",
+      "correct": "Chùa Một Cột"
+    },
+    {
+      "id": 3,
+      "chapter": "HN",
+      "spot": 1,
+      "ques": "Hồ Gươm nằm ở trung tâm của thành phố nào?",
+      "a": "Hà Nội",
+      "b": "Hồ Chí Minh",
+      "c": "Đà Nẵng",
+      "d": "Huế",
+      "correct": "Hà Nội"
+    },
+    {
+      "id": 4,
+      "chapter": "HN",
+      "spot": 1,
+      "ques": "Thứ tự nào sau đây là của các quận trung tâm của Hà Nội từ tây đi đông?",
+      "a": "Ba Đình - Hoàn Kiếm - Hai Bà Trưng - Đống Đa",
+      "b": "Hai Bà Trưng - Ba Đình - Đống Đa - Hoàn Kiếm",
+      "c": "Hoàn Kiếm - Ba Đình - Hai Bà Trưng - Đống Đa",
+      "d": "Đống Đa - Hai Bà Trưng - Ba Đình - Hoàn Kiếm",
+      "correct": "Ba Đình - Hoàn Kiếm - Hai Bà Trưng - Đống Đa"
+    },
+    {
+      "id": 5,
+      "chapter": "HN",
+      "spot": 1,
+      "ques": "Nhà hát lớn ở Hà Nội có tên gì?",
+      "a": "Nhà hát Thăng Long",
+      "b": "Nhà hát Hà Nội",
+      "c": "Nhà hát Hoàn Kiếm",
+      "d": "Nhà hát Quốc gia",
+      "correct": "Nhà hát Quốc gia"
+    },
+    {
+      "id": 6,
+      "chapter": "HN",
+      "spot": 2,
+      "ques": "Cây cầu nào là cây cầu nổi tiếng ở Hà Nội?",
+      "a": "Cầu Tràng Tiền",
+      "b": "Cầu Thê Húc",
+      "c": "Cầu Long Biên",
+      "d": "Cầu Cần Thơ",
+      "correct": "C"
+    },
+    {
+      "id": 7,
+      "chapter": "HN",
+      "spot": 2,
+      "ques": "Ngày Quốc khánh Việt Nam là ngày nào?",
+      "a": "1 tháng 1",
+      "b": "30 tháng 4",
+      "c": "2 tháng 9",
+      "d": "19 tháng 8",
+      "correct": "C"
+    },
+    {
+      "id": 8,
+      "chapter": "HN",
+      "spot": 2,
+      "ques": "Công viên nào sau đây là công viên lớn nhất ở Hà Nội?",
+      "a": "Công viên Lenin",
+      "b": "Công viên Thống Nhất",
+      "c": "Công viên Hồ Gươm",
+      "d": "Công viên Hoàng Thành",
+      "correct": "Công viên Thống Nhất"
+    },
+    {
+      "id": 9,
+      "chapter": "HN",
+      "spot": 2,
+      "ques": "Khu phố cổ Hà Nội nằm ở quận nào?",
+      "a": "Hoàn Kiếm",
+      "b": "Ba Đình",
+      "c": "Hai Bà Trưng",
+      "d": "Đống Đa",
+      "correct": "Hoàn Kiếm"
+    },
+    {
+      "id": 10,
+      "chapter": "HN",
+      "spot": 2,
+      "ques": "Chùa nổi tiếng ở Hà Nội có tên gì?",
+      "a": "Chùa Một Cột",
+      "b": "Chùa Trấn Quốc",
+      "c": "Chùa Hương",
+      "d": "Chùa Láng",
+      "correct": "Chùa Một Cột"
+    },
+    {
+      "id": 11,
+      "chapter": "HN",
+      "spot": 3,
+      "ques": "Lăng Chủ tịch Hồ Chí Minh ở đâu?",
+      "a": "Hà Nội",
+      "b": "Hồ Chí Minh",
+      "c": "Hải Phòng",
+      "d": "Huế",
+      "correct": "Hà Nội"
+    },
+    {
+      "id": 12,
+      "chapter": "HN",
+      "spot": 3,
+      "ques": "Tượng đài Ly Thái Tổ nằm ở đâu?",
+      "a": "Cầu Long Biên",
+      "b": "Hồ Gươm",
+      "c": "Văn Miếu",
+      "d": "Ba Đình",
+      "correct": "Hồ Gươm"
+    },
+    {
+      "id": 13,
+      "chapter": "HN",
+      "spot": 3,
+      "ques": "Hà Nội có mùa hoa nở đẹp nhất vào thời điểm nào?",
+      "a": "Mùa xuân",
+      "b": "Mùa hè",
+      "c": "Mùa thu",
+      "d": "Mùa đông",
+      "correct": "Mùa xuân"
+    },
+    {
+      "id": 14,
+      "chapter": "HN",
+      "spot": 3,
+      "ques": "Tượng đài Đại tướng Võ Nguyên Giáp nằm ở quận nào?",
+      "a": "Ba Đình",
+      "b": "Hoàn Kiếm",
+      "c": "Hai Bà Trưng",
+      "d": "Đống Đa",
+      "correct": "Ba Đình"
+    },
+    {
+      "id": 15,
+      "chapter": "HN",
+      "spot": 3,
+      "ques": "Hỏa lò nổi tiếng ở Hà Nội được sử dụng trong thời gian nào?",
+      "a": "Chiến tranh thế giới thứ nhất",
+      "b": "Chiến tranh Việt Nam",
+      "c": "Chiến tranh thế giới thứ hai",
+      "d": "Kháng chiến chống Mông Cổ",
+      "correct": "C"
+    },
+    {
+      "id": 16,
+      "chapter": "HN",
+      "spot": 4,
+      "ques": "Hồ Hoàn Kiếm nằm ở trung tâm của khu vực nào ở Hà Nội?",
+      "a": "Khu vực Ba Đình",
+      "b": "Khu vực Hoàn Kiếm",
+      "c": "Khu vực Hai Bà Trưng",
+      "d": "Khu vực Đống Đa",
+      "correct": "Khu vực Hoàn Kiếm"
+    },
+    {
+      "id": 17,
+      "chapter": "HN",
+      "spot": 4,
+      "ques": "Quảng trường Ba Đình là nơi diễn ra sự kiện gì quan trọng trong lịch sử Việt Nam?",
+      "a": "Tuyên ngôn độc lập",
+      "b": "Ký hợp đồng hòa bình",
+      "c": "Đảo chính",
+      "d": "Ký kết hiệp ước thương mại",
+      "correct": "Tuyên ngôn độc lập"
+    },
+    {
+      "id": 18,
+      "chapter": "HN",
+      "spot": 4,
+      "ques": "Đâu là một trong những món ăn đặc sản của Hà Nội?",
+      "a": "Phở",
+      "b": "Bánh mì",
+      "c": "Hủ tiếu",
+      "d": "Bún riêu cua",
+      "correct": "Phở"
+    },
+    {
+      "id": 19,
+      "chapter": "HN",
+      "spot": 4,
+      "ques": "Sông nào chảy qua trung tâm của Hà Nội?",
+      "a": "Sông Mekong",
+      "b": "Sông Hồng",
+      "c": "Sông Cửu Long",
+      "d": "Sông Sài Gòn",
+      "correct": "Sông Hồng"
+    },
+    {
+      "id": 20,
+      "chapter": "HN",
+      "spot": 4,
+      "ques": "Hà Nội có bao nhiêu quận huyện?",
+      "a": "12",
+      "b": "15",
+      "c": "20",
+      "d": "30",
+      "correct": "C"
+    },
+    {
+      "id": 21,
+      "chapter": "HN",
+      "spot": 5,
+      "ques": "Khu phố cổ Hà Nội được gọi là gì?",
+      "a": "Hanoi Old Quarter",
+      "b": "Hoi An Ancient Town",
+      "c": "Hue Imperial City",
+      "d": "Hanoi French Quarter",
+      "correct": "Hanoi Old Quarter"
+    },
+    {
+      "id": 22,
+      "chapter": "HN",
+      "spot": 5,
+      "ques": "Lễ hội nào sau đây là lễ hội truyền thống của Hà Nội?",
+      "a": "Lễ hội Mùa xuân",
+      "b": "Lễ hội Halloween",
+      "c": "Lễ hội Songkran",
+      "d": "Lễ hội Đoan Ngọ",
+      "correct": "Lễ hội Đoan Ngọ"
+    },
+    {
+      "id": 23,
+      "chapter": "HN",
+      "spot": 5,
+      "ques": "Đâu là một trong những bãi biển gần Hà Nội?",
+      "a": "Vịnh Hạ Long",
+      "b": "Vũng Tàu",
+      "c": "Nha Trang",
+      "d": "Hải Tiến",
+      "correct": "Hải Tiến"
+    },
+    {
+      "id": 24,
+      "chapter": "HN",
+      "spot": 5,
+      "ques": "Cầu Long Biên nằm qua sông nào?",
+      "a": "Sông Mekong",
+      "b": "Sông Hồng",
+      "c": "Sông Cửu Long",
+      "d": "Sông Sài Gòn",
+      "correct": "Sông Hồng"
+    },
+    {
+      "id": 25,
+      "chapter": "HN",
+      "spot": 5,
+      "ques": "Trung tâm thương mại Vincom Center nằm ở quận nào của Hà Nội?",
+      "a": "Ba Đình",
+      "b": "Hoàn Kiếm",
+      "c": "Hai Bà Trưng",
+      "d": "Đống Đa",
+      "correct": "Hoàn Kiếm"
+    }
+  ],
+  "images": [
+    {
+      "id": 8,
+      "types": 0,
+      "index": 0,
+      "imgUrl_base": "https://drive.google.com/file/d/10qnRuGwNJol2-upIO8VXtz_AKNMtebIc/view?usp=drive_link",
+      "imgUrl": "./src/assets/img2/HN30-0.png",
+      "picture": "uuu30",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "types": 0,
+      "index": 1,
+      "imgUrl_base": "https://drive.google.com/file/d/1piVAMUsfABiZ-7LFP5a2CUZuV8QPT2uP/view?usp=drive_link",
+      "imgUrl": "./src/assets/img2/HN30-1.png",
+      "picture": "rukjj",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "types": 0,
+      "index": 2,
+      "imgUrl_base": "https://drive.google.com/file/d/1VleOQ7VJbvTe2Y1ItdaHIO4FwgMfLNAV/view?usp=drive_link",
+      "imgUrl": "./src/assets/img2/HN30-2.png",
+      "picture": "adsf",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "types": "0",
+      "index": "3",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-3.png?raw=true",
+      "picture": "HN30",
+      "ownerId": "0xd9B02e1ED628D9a7726Eb7735f8a8932eFeF3FEd",
+      "isActive": "true",
+      "price": "30"
+    },
+    {
+      "id": "5",
+      "types": "0",
+      "index": "4",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-4.png?raw=true",
+      "picture": "HN30",
+      "ownerId": "0xd9B02e1ED628D9a7726Eb7735f8a8932eFeF3FEd",
+      "isActive": "true",
+      "price": "30"
+    },
+    {
+      "id": "6",
+      "types": "0",
+      "index": "5",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-5.png?raw=true",
+      "picture": "HN30",
+      "ownerId": "0x19fA891dbbcE382f8D6769cE2e4e39E30acb48FD",
+      "isActive": "true",
+      "price": "20"
+    },
+    {
+      "id": "7",
+      "types": "0",
+      "index": "6",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-6.png?raw=true",
+      "picture": "HN30",
+      "ownerId": "0xd9B02e1ED628D9a7726Eb7735f8a8932eFeF3FEd",
+      "isActive": "true",
+      "price": "30"
+    },
+    {
+      "id": 8,
+      "types": 0,
+      "index": 7,
+      "imgUrl_base": "https://drive.google.com/file/d/1M30MeNbs0dUSpwza5XVpoGytBPof04aL/view?usp=drive_link",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-4.png?raw=true",
+      "picture": "ruqwru",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "types": 0,
+      "index": 1,
+      "imgUrl_base": "https://drive.google.com/file/d/1fBQKl67ESnWwXxzESYc8Uf1yfjBSkB7X/view?usp=drive_link",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-5.png?raw=true",
+      "picture": "ruqwru",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "types": 0,
+      "index": 9,
+      "imgUrl_base": "https://drive.google.com/file/d/1Si4OrYKxdNQheCHvUWR7nvPN1MmQM1X5/view?usp=drive_link",
+      "imgUrl": "https://github.com/philong-inco/beelieve/blob/main/HANOI30/Ch%C3%B9a%20m%E1%BB%99t%20c%E1%BB%99t/Piece/chuamotcot-6.png?raw=true",
+      "picture": "ruqwru",
+      "ownerId": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+      "isActive": true
+    }
+  ]
+}

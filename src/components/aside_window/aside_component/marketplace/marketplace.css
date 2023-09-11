@@ -1,0 +1,50 @@
+#market {
+    width: fit-content;
+    height: fit-content;
+    padding: 1% 2%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+#market h2 {
+    margin-right: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+#market img {
+    padding: 10px;
+    /* padding: 20px; */
+    border-radius: 50%;
+    background-color: rgba(53, 53, 53, 0.9);
+    transition: 0.3s ease-in-out;
+    animation: up 1.3s infinite;
+}
+
+#market:hover {
+    background-color: rgba(53, 53, 53, 0.8);
+    transition: 0.3s ease-in-out;
+    border: 5px groove rgba(53, 53, 53, 0.2);
+    box-shadow: 0 0 10px white;
+}
+
+#market:active {
+    transform: translateY(4px);
+    transition: 0.3s ease-in-out;
+}
+
+#market:hover h2 {
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#market:hover img {
+    padding: 0;
+    animation: none;
+    border-radius: 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}

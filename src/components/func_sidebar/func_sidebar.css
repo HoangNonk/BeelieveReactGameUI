@@ -1,0 +1,40 @@
+#func_sidebar li {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+    transition: 0.7s;
+  }
+  
+  #func_sidebar img {
+    width: 50px;
+    transition: 0.7s;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  #func_sidebar img:active {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  #func_sidebar img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+  
+  #button_setting:hover img,
+  #button_chapter:hover img {
+    transform: rotate(180deg);
+    transition: 0.35s ease-out;
+  }
+  
+  .click_btn_sidebar {
+    transform: translateX(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.7s;
+  }

@@ -1,0 +1,65 @@
+.click_btn_sidebar {
+    transform: translateX(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+.show_aside {
+    width: 90%;
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateX(0);
+}
+
+#button_next_chapter {
+    background-color: rgba(53, 53, 53, 0.7);
+    border: 3px solid rgba(53, 53, 53, 1);
+    color: white;
+    text-align: center;
+    height: 65px;
+    transition: 0.3s ease-in-out;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#title {
+    padding: 0 8px;
+    font-size: 18px;
+}
+
+#button_next_chapter:hover {
+    border-radius: 15px 0 0 15px;
+    transition: 0.3s ease-in-out;
+    padding-right: 20px;
+    border-right: 10px solid gold;
+    box-shadow: 0 0 20px gold;
+    background-color: rgba(53, 53, 53, 0.9);
+}
+
+#shape_move {
+    width: 0;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#button_next_chapter:hover #shape_move {
+    width: fit-content;
+    padding-left: 5px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    animation: move_right 1s infinite ease-in-out;
+}
+
+@keyframes move_right {
+    0% {
+
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+
+    }
+}

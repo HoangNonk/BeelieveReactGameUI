@@ -1,0 +1,107 @@
+.setting_child {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: #353535;
+  cursor: pointer;
+}
+
+.social_media {
+  background: #000;
+  background: rgba(53, 53, 53, 1);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.social_media:hover {
+  transition: 0.3s ease-in-out;
+  transform: translateX(20px);
+  padding-left: 20px;
+}
+
+.social_media:hover .logo_social {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+#facebook:hover {
+  background: rgba(25, 119, 242, 0.7);
+}
+
+#discord:hover {
+  background: rgba(53, 53, 53, 0.8);
+  color: rgba(88, 101, 242, 1);
+}
+
+#discord:hover #logo_discord{
+  box-shadow: 0 0 30px rgba(88, 101, 242, 1);
+  padding: 5px;
+  border: none;
+  animation: bounce 3s infinite;
+}
+
+#youtube:hover {
+  background: rgba(246, 28, 13, 0.7);
+}
+
+
+/* -------------- */
+
+.switch_toggle_audio {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch_toggle_audio input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider_button_audio {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider_button_audio:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider_button_audio {
+  background-color: #353535;
+}
+
+input:focus+.slider_button_audio {
+  box-shadow: 0 0 1px;
+}
+
+input:checked+.slider_button_audio:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider_button_audio.round {
+  border-radius: 34px;
+}
+
+.slider_button_audio.round:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,75 @@
+
+#map {
+  background-color: #353535;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url('../../assets/img/map.jpg') no-repeat;
+  background-size: 100%;
+}
+
+#map .chapter.spot {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+
+  transition: 0.15s;
+  height: 30px;
+  width: 65px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(53, 53, 53, 0.9);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 3px #999;
+  animation: move_spot 4s infinite ease-in-out;
+}
+
+@keyframes move_spot {
+  0% {}
+
+  50% {
+    transform: translateY(3px);
+  }
+
+  100% {}
+}
+
+#map .chapter.spot:hover {
+  background-color: gray
+}
+
+#map .chapter.spot:active {
+  background-color: #353535;
+  box-shadow: 0 5px #666;
+  transition: 0.15s;
+  transform: translateY(5px);
+}
+
+.chest {
+  animation: move_chest 4s ease-in-out infinite;
+}
+
+@keyframes move_chest {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+  }
+
+  50% {
+    box-shadow: 0 0 200px rgba(255, 255, 0, 1);
+    transform: translateY(4px);
+  }
+
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+  }
+}
+
+.chest:active {
+  box-shadow: 0 0 100px yellow;
+  transform: translateY(4px);
+} 
